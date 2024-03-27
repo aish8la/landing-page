@@ -23,7 +23,7 @@ body {
     padding: 25px 200px;
 }
 
-/*Header, Hero and Footer background colour*/
+/*Header, Hero and Footer background color*/
 
 .header-container,
 .footer-container {
@@ -66,9 +66,9 @@ body {
 
 .hero-content {
     display: flex;
-    gap: 18px;
+    gap: 16px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -78,10 +78,15 @@ body {
 .hero-left,
 .hero-img-container {
     max-width: 600px;
-    flex: 1;
-    padding: 0;
-    margin: 0;
     min-width: 200px;
+}
+
+.hero-left {
+    flex: 1.5;
+}
+
+.hero-img-container {
+    flex: 1;
 }
 
 
@@ -115,9 +120,15 @@ body {
 
 }
 
-
 .hero-img {
     width: 100%;
 }
+
+
+
+
+
+/*Second section*/
+
 
 
