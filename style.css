@@ -115,9 +115,11 @@ body {
 .hero-button {
     background-color: #3882f6;
     padding: 6px 20px;
-    border: none;
+    border: 3px solid #3882f6;
     border-radius: 8px;
-
+    font-size: 16px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 
 .hero-img {
@@ -129,6 +131,10 @@ body {
 
 
 /*Second section*/
+
+.second-container {
+    padding-bottom: 100px;
+}
 
 .info-header {
     font-size: 36px;
@@ -178,8 +184,7 @@ body {
 
 .third-container {
     background-color: #e5e7eb;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 280px;
 }
 
 .quote {
@@ -196,5 +201,42 @@ body {
     margin-top: 12px;
 }
 
+/*Ribbon Section*/
 
+.ribbon {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    margin: 40px 0px;
+    border-radius: 6px;
+}
+
+.ribbon-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 6px;
+}
+
+.ribbon-subtext {
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+.ribbon-button {
+    background-color: #3882f6;
+    padding: 6px 20px;
+    border: 3px solid #f9faf8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+
+.footer-container {
+    text-align: center;
+}
 
